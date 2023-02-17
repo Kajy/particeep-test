@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kevin/Workspace/utils/scala-interview/app/akka/WhatsWrong3.scala:33:31: identifier expected but ']' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass Refactor3(stateRef: Ref[]) extends Actor {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kevin/Workspace/utils/scala-interview/app/akka/WhatsWrong3.scala:51:2: ']' expected but eof found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

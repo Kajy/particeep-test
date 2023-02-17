@@ -1,0 +1,36 @@
+
+1) Explain REST
+
+REST is an architecture for API.
+He must have a stateless communication, each requests are independent
+Using cache to optimize response time
+Using HTTP protocol, with methods GET, PUT, POST, DELETE ...
+
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, number of servers, etc.)
+
+The principal architectural style for a web API is the RESTful architecture.
+The formats of client/server communication are essentially in JSON or XML using HTTP protocol.
+You can use other protocol for communication like GraphQL and GRPC.
+Setup a load balancer, number of servers depend of the volumetry and you must setup an auto-scaling.
+
+3) What are the best practices when deploying an application in the cloud
+
+Automatise the deployment, like using Ansible and Terraform for AWS.
+Use CI/CD tools, like Gitlab-ci.
+Setup a blue/green architecture to not have any service interruption when you will make a deployment in production.
+Use containerization with Docker and Kubernetes for examples to have a faster scalability.
+Secure the access of the application with firewall and CORS policies.
+Setup monitoring and alerts of your application.
+
+4) What are your best strength : infra ? DB ? web ?
+
+My best strength is my knowledge in Scala language. Capacity to make a good functional and pure code, using recent libraries in the Typelevel ecosystem
+I worked with different databases SQL and NoSQL, like Postgres, Redis, BigQuery, ElasticSearch...
+
+5) Among all the projects you have worked on. Which architecture do you enjoy the most? explain why ?
+
+On the last project that I worked on, i made a 100% pure functionnal API using cats-effect / http4s (server/client) / fs2 (streaming) libraries.
+It permit to make a Tagless final pattern to handle correctly side-effects and see directly the class responsibilities.
+I fused it with an onion architecture.
+Application communicate with different databases, PostgreSQL, Elasticsearch and Redis.
+I deployed my app on AWS Fargate ECS service.

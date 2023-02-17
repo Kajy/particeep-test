@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kevin/Workspace/utils/scala-interview/test/akka/BasicStreamTest.scala:18:34: overloaded method must with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (endWithWord: org.scalatest.matchers.dsl.EndWithWord)(implicit ev: Array[String] <:< String): BasicStreamTest.this.ResultOfEndWithWordForString <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (startWithWord: org.scalatest.matchers.dsl.StartWithWord)(implicit ev: Array[String] <:< String): BasicStreamTest.this.ResultOfStartWithWordForString <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (includeWord: org.scalatest.matchers.dsl.IncludeWord)(implicit ev: Array[String] <:< String): BasicStreamTest.this.ResultOfIncludeWordForString <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (notExist: org.scalatest.matchers.dsl.ResultOfNotExist)(implicit existence: org.scalatest.enablers.Existence[Array[String]]): org.scalatest.Assertion <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (existWord: org.scalatest.matchers.dsl.ExistWord)(implicit existence: org.scalatest.enablers.Existence[Array[String]]): org.scalatest.Assertion <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (containWord: org.scalatest.matchers.dsl.ContainWord)org.scalatest.matchers.dsl.ResultOfContainWord[Array[String]] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (haveWord: org.scalatest.matchers.dsl.HaveWord)BasicStreamTest.this.ResultOfHaveWordForExtent[Array[String]] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (beWord: org.scalatest.matchers.dsl.BeWord)BasicStreamTest.this.ResultOfBeWordForAny[Array[String]] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (inv: org.scalactic.TripleEqualsSupport.TripleEqualsInvocationOnSpread[Array[String]])(implicit ev: Numeric[Array[String]]): org.scalatest.Assertion <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [U](inv: org.scalactic.TripleEqualsSupport.TripleEqualsInvocation[U])(implicit constraint: org.scalactic.CanEqual[Array[String],U]): org.scalatest.Assertion <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (notWord: org.scalatest.matchers.dsl.NotWord)org.scalatest.matchers.dsl.ResultOfNotWordForAny[Array[String]] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [TYPECLASS1[_], TYPECLASS2[_]](rightMatcherFactory2: org.scalatest.matchers.dsl.MatcherFactory2[Array[String],TYPECLASS1,TYPECLASS2])(implicit typeClass1: TYPECLASS1[Array[String]], typeClass2: TYPECLASS2[Array[String]]): org.scalatest.Assertion <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [TYPECLASS1[_]](rightMatcherFactory1: org.scalatest.matchers.dsl.MatcherFactory1[Array[String],TYPECLASS1])(implicit typeClass1: TYPECLASS1[Array[String]]): org.scalatest.Assertion <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (rightMatcherX1: org.scalatest.matchers.Matcher[Array[String]])org.scalatest.Assertion[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (org.scalatest.matchers.Matcher[String])[0m
+[0m[[0m[31merror[0m] [0m[0m      out.toString().split('\n') must include("2\\n")[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

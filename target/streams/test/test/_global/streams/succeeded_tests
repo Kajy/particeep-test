@@ -1,0 +1,9 @@
+#Successful Tests
+#Fri Feb 17 15:50:54 CET 2023
+com.particeep.test.basic.BasicScalaTest=1676645454166
+basic.RefactoringTest=1676645454159
+akka.BasicStreamTest=1676645454157
+basic.ComputeAverageTest=1676645453254
+async.AsyncBasicTest=1676645454189
+async.EnterpriseDaoTest=1676645454208
+akka.FireActorTest=1676645454359

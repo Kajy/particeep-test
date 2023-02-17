@@ -1,0 +1,58 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 7 initial tasks for 7 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(basic.ComputeAverageTest, sbt.ForkMain$SubclassFingerscan@c038203, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mComputeAverageTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mComputeAverage[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should average[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(akka.BasicStreamTest, sbt.ForkMain$SubclassFingerscan@cc285f4, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicStreamTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicStream[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(basic.RefactoringTest, sbt.ForkMain$SubclassFingerscan@55f3ddb1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRefactoringTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRefactoring[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get categories[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.particeep.test.basic.BasicScalaTest, sbt.ForkMain$SubclassFingerscan@8bd1b6a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicScalaTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicScala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should encode params in url[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute email[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should power[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(async.AsyncBasicTest, sbt.ForkMain$SubclassFingerscan@18be83e4, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAsyncBasicTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAsyncBasic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(async.EnterpriseDaoTest, sbt.ForkMain$SubclassFingerscan@cb5822, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEnterpriseDaoTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEnterpriseDao[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get CEO and Enterprise[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(akka.FireActorTest, sbt.ForkMain$SubclassFingerscan@4b9e13df, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFireActorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFireActor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fire actor[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 761 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 7, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 9, Failed 0, Errors 0, Passed 9[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	basic.ComputeAverageTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	akka.BasicStreamTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	basic.RefactoringTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.particeep.test.basic.BasicScalaTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	async.AsyncBasicTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	async.EnterpriseDaoTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	akka.FireActorTest[0m
